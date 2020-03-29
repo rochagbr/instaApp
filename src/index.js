@@ -1,10 +1,6 @@
 import React from 'react';
-import { Text, SafeAreaView } from 'react-native';
+import Routes from './routes';
 
 export default function Main() {
-  return (
-    <SafeAreaView>
-      <Text>Helloo</Text>
-    </SafeAreaView>
-  );
+  return <Routes />;
 }
